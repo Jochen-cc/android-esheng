@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="NumberProgressBar">
+        <attr name="progress" format="integer" />
+        <attr name="max" format="integer" />
+        <attr name="progress_unreached_color" format="color" />
+        <attr name="progress_reached_color" format="color" />
+        <attr name="progress_reached_bar_height" format="dimension" />
+        <attr name="progress_unreached_bar_height" format="dimension" />
+        <attr name="progress_text_size" format="dimension" />
+        <attr name="progress_text_color" format="color" />
+        <attr name="progress_text_offset" format="dimension" />
+        <attr name="progress_text_visibility" format="enum">
+            <enum name="visible" value="0" />
+            <enum name="invisible" value="1" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="Themes">
+        <attr name="numberProgressBarStyle" format="reference" />
+    </declare-styleable>
+
+    <attr name="fl_theme" format="reference" />
+    <attr name="fl_fontFamily" format="string" />
+    <attr name="fl_fontWeight" format="string" />
+    <attr name="fl_fontExtension" format="string" />
+    <attr name="fl_textAppearance" format="integer">
+        <enum name="fl_none" value="0" />
+        <enum name="fl_dark" value="1" />
+        <enum name="fl_light" value="2" />
+    </attr>
+    <attr name="fl_cornerRadius" format="dimension" />
+    <attr name="fl_borderWidth" format="dimension" />
+    <attr name="fl_size" format="dimension" />
+    <attr name="fl_touchEffect" format="integer">
+        <enum name="fl_none" value="0" />
+        <enum name="fl_ease" value="1" />
+        <enum name="fl_ripple" value="2" />
+    </attr>
+    <attr name="fl_dotMargin" format="dimension" />
+    
+    <declare-styleable name="AccountAutoCompleteEditText">
+        <attr name="accountType">
+            <enum name="any" value="0"/>
+            <enum name="email" value="1"/>
+            <enum name="phoneNumber" value="2"/>
+        </attr>
+    </declare-styleable>
+    
+    <attr name="siArrowPosition">
+        <enum name="left" value="0" />
+        <enum name="right" value="1" />
+    </attr>
+    <attr name="siBorderType">
+        <enum name="stroke" value="0" />
+        <enum name="fill" value="1" />
+    </attr>
+    <attr name="siStrokeCap">
+        <enum name="butt" value="0" />
+        <enum name="round" value="1" />
+        <enum name="square" value="2" />
+    </attr>
+    <attr name="siStrokeJoin">
+        <enum name="bevel" value="0" />
+        <enum name="miter" value="1" />
+        <enum name="round" value="2" />
+    </attr>
+    <declare-styleable name="ShaderImageView">
+        <attr name="siSquare" format="boolean" />
+        <attr name="siBorderColor" format="color" />
+        <attr name="siBorderWidth" format="dimension" />
+        <attr name="siBorderAlpha" format="float" />
+        <attr name="siForeground" format="integer|reference" />
+        <!-- Rounded Image View -->
+        <attr name="siRadius" format="dimension" />
+        <!--BubbleImageView-->
+        <attr name="siArrowPosition"/>
+        <attr name="siTriangleHeight" format="dimension"/>
+        <!--PorterImageView-->
+        <attr name="siShape" format="integer|reference" />
+        <!--ShaderImageView-->
+        <attr name="siBorderType"/>
+        <attr name="siStrokeCap"/>
+        <attr name="siStrokeJoin"/>
+        <attr name="siStrokeMiter" format="dimension" />
+    </declare-styleable>
+</resources>
