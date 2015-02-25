@@ -5,10 +5,8 @@ import java.util.TimerTask;
 
 import com.qcyg.jochen.esheng.leading.LeadActivity;
 import com.qcyg.jochen.esheng.progressBar.NumberProgressBar;
-import com.qcyg.jochen.esheng.webView.WebViewActivity;
 
 import android.os.Bundle;
-import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
