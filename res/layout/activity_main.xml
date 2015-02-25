@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+	
+    <com.qcyg.jochen.esheng.widget.xlist.XListView
+        android:id="@+id/main_xlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@null"
+        android:divider="@null"
+        android:scrollbars="none"
+        android:layout_marginBottom="10dp"
+        android:drawSelectorOnTop="false"
+        android:headerDividersEnabled="false"
+        android:footerDividersEnabled="false"
+        android:listSelector="@color/transparent"/>
+    
+    <!-- <com.qcyg.jochen.esheng.widget.octogonimageview.HexagonImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="8dp"
+        android:src="@drawable/neo"
+        app:siBorderColor="@color/white"
+        app:siBorderWidth="8dp" /> -->
+
+    <!--
+    <com.qcyg.jochen.esheng.widget.autocomp.AccountAutoCompleteEditText
+        android:id="@+id/any"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:hint="@string/label_account_type_any"
+        android:imeOptions="actionNext"
+        android:inputType="textPassword" />
+
+    <com.qcyg.jochen.esheng.widget.autocomp.AccountAutoCompleteEditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/any"
+        android:layout_marginBottom="48dp"
+        android:hint="@string/label_account_email"
+        android:imeOptions="actionNext"
+        android:inputType="textEmailAddress" />
+
+    <com.qcyg.jochen.esheng.widget.autocomp.AccountAutoCompleteEditText
+        android:id="@+id/phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email"
+        android:layout_marginBottom="48dp"
+        android:hint="@string/label_account_phone_number"
+        android:imeOptions="actionDone"
+        android:inputType="textPostalAddress" />
+    -->
+
+</RelativeLayout>
